@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    nav{
+        padding: 1em;
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #F4F5FF;
+        h3{
+            margin: 0;
+        }
+        p{
+            margin: 0;
+        }
+    }
+    .wohnraume{
+        padding:4em 8em 4em 8em;
+        .zimmer{
+            display: flex;
+            gap: 40em;
+            .text{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+        .zimmer2{
+            flex-direction: row-reverse;
+            
+        }
+    }
+    /* .datepicker{
+        position: relative;
+        div{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #F4F5FF;
+        }
+    } */
+}
